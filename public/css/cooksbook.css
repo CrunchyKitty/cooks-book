@@ -8,14 +8,49 @@ body {
   padding-top: 54px;
 }
 
-.navbar-default {
-  background-color:teal;
-  background-image: none;
-  background-repeat: no-repeat;
- }
-
 @media (min-width: 995px) {
   body {
     padding-top: 56px;
   }
+
+  .fa {
+  padding: 50px;
+  font-size: 30px;
+  width: 100px;
+  text-align: right;
+  text-decoration: none;
+  margin: 15px 2px;
 }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  padding: 50px
+  background: #125688;
+  color: white;
+  margin: 50px 2px;
+  padding: 50px;
+}
+
+.fa-pinterest {
+  padding: 50px
+  background: #cb2027;
+  color: white;
+  margin: 50px 2px;
+  padding: 50px;
+}
+
+
+.fa-facebook {
+  padding: 50px
+  background: #3B5998;
+  color: white;
+  margin: 50px 2px;
+  padding: 50px;
+}
+
+}
+}
+
